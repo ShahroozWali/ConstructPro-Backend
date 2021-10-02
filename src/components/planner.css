@@ -1,0 +1,27 @@
+
+    .input-planner,select{
+        border:1px solid black;
+        min-width:500px;
+        margin:5px;
+        padding:15px;
+    }
+
+    select {
+        width: 528px;
+    }
+    
+    .input-container{
+        margin-top: 50px;
+        text-align:center;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .btn-planner{
+    width:42%;
+    padding:15px;
+    background-color:black;
+    color:white;
+    margin:20px;
+    }

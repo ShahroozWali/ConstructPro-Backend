@@ -1,0 +1,209 @@
+*{
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  overflow-x : hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* custom scroll bar */
+
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #f8a30a;
+  outline: 1px solid white;
+}
+
+/* Featured Products */
+
+.featuredProducts{
+  padding: 50px 0px;
+}
+.featuredProductHeading{
+  text-align:center;
+  margin-top:4vh;
+  font-size: 2.5em;
+}
+
+.featuredProductsGrid {
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 50px;
+}
+
+/* Product Grid */
+
+.singleProduct {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.productImage {
+  width: 250px;
+}
+
+.productTitle,.productPrice {
+  font-size: 24px;
+}
+
+.productTitle{
+  font-weight: bold;
+  padding: 5px 0px;
+}
+
+.productPrice {
+  margin-bottom: 5px;
+}
+
+
+.featuredProductHeading .featured {
+  color: #f8a30a;
+}
+
+.featuredProductHeading .products {
+  color: #021d38;
+}
+/* Buttons */
+
+.productButtons {
+  display: flex;
+}
+
+.btn {
+
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  margin:5px;
+  min-width: 80px;
+  text-align: center;
+}
+
+.yellowBtn{
+  background-color: #f8a30a;
+}
+.addToCartBtn{
+  background-color: #f8a30a;
+  display: inline-block;
+}
+
+
+
+.addToCartBtn:hover,.viewInArBtn:hover {
+  background-color: black;
+}
+
+.viewInArBtn {
+  background-color: #021d38;
+  display: inline-block;
+}
+
+
+/* Dream Home */
+
+.dreamHome {
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+
+}
+
+.dreamHomeInner{
+  text-align: center;
+  background: rgb(255,255,255,0.7);
+  padding: 30px 50px;
+}
+
+
+.dreamHeading2 {
+  margin-top:10px;
+  color: #021d38;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* Footer */
+.footer {
+  background: #021d38;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.ArDesigner {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  background-attachment: fixed;
+  background-size: cover;
+  width:100%;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+.ar-right,.ar-left,.webCamArea,.dflexC {
+  text-align:center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.dflex {
+  text-align:center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* SHOP */
+
+.shop,.serviceProviders {
+  padding: 50px 0px;
+}
+
+.iconBar a{
+  color: white;
+}
+
+/* PROJECT */
+
+.project{
+  width:500px;
+  margin-top:100px;
+  margin-left:500px;
+}
+
+.projects {
+  padding: 20px 80px;
+}
